@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitron Server Launcher - Game Server Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <meta name="description" content="Create and manage game servers with a few clicks. No Java required.">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/icon.png" alt="Nitron Logo">
+                    <span>Nitron Server Launcher</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#games">Games</a>
+                    <a href="#requirements">Requirements</a>
+                    <a href="https://github.com/pcanabarro/nitron-launcher/releases/latest" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.9rem;">Download</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <img src="images/icon.png" alt="Nitron Logo" class="hero-logo">
+            <div class="version-badge">v1.0.0 Stable</div>
+            <h1 class="hero-title">Server Management Simplified</h1>
+            <p class="hero-subtitle">Create and manage game servers with a few clicks. No complicated scripts, no manual Java installation required.</p>
+            
+            <div style="margin-top: 2rem;">
+                <a href="https://github.com/pcanabarro/nitron-launcher/releases/latest" class="btn btn-primary btn-large">Download for Windows</a>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted);">Compatible with Windows 10/11 (64-bit)</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2 style="text-align: center;">Why Nitron?</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Wizard Setup</h3>
+                    <p>Step-by-step guidance for creating new servers. Select your game, version, and settings without editing text files.</p>
+                </div>
+                <div class="card">
+                    <h3>Server Management</h3>
+                    <p>Start, stop, and monitor your servers from a clean dashboard. View real-time status and logs.</p>
+                </div>
+                <div class="card">
+                    <h3>Memory Config</h3>
+                    <p>Easily allocate RAM to your servers with a slider. No need to memorize Java launch arguments.</p>
+                </div>
+                <div class="card">
+                    <h3>Properties Editor</h3>
+                    <p>Edit server.properties and other config files using a visual interface with validated inputs.</p>
+                </div>
+                <div class="card">
+                    <h3>Auto-Discovery</h3>
+                    <p>Automatically finds required tools like SteamCMD and manages Java runtimes for you.</p>
+                </div>
+                <div class="card">
+                    <h3>No Java Required</h3>
+                    <p>Nitron comes with its own embedded Java runtime. You don't need to install Java on your system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" style="background-color: var(--bg-tertiary);">
+        <div class="container">
+            <h2 style="text-align: center;">Supported Games</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                <div class="card game-card">
+                    <div class="game-status status-supported">Supported</div>
+                    <h3>Minecraft</h3>
+                    <p>Java Edition servers. Support for Vanilla, Paper, Spigot, and Forge modloaders.</p>
+                </div>
+                <div class="card game-card">
+                    <div class="game-status status-supported">Supported</div>
+                    <h3>Counter-Strike 2</h3>
+                    <p>Dedicated servers with SourceMod and Metamod support built-in.</p>
+                </div>
+                <div class="card game-card dimmed">
+                    <div class="game-status status-coming">Coming Soon</div>
+                    <h3>Unturned</h3>
+                    <p>Full dedicated server support is currently in development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="requirements">
+        <div class="container">
+            <h2 style="text-align: center;">System Requirements</h2>
+            <div class="req-grid" style="margin-top: 40px;">
+                <div class="req-item">
+                    <span class="req-label">Operating System</span>
+                    <span class="req-value">Windows 10 / 11</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">Architecture</span>
+                    <span class="req-value">64-bit (x64)</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">RAM</span>
+                    <span class="req-value">4 GB+ Recommended</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">Disk Space</span>
+                    <span class="req-value">500 MB + Game Files</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="cta">
+            <h2>Ready to host?</h2>
+            <p>Download the latest version and start your server in minutes.</p>
+            <a href="https://github.com/pcanabarro/nitron-launcher/releases/latest" class="btn btn-primary btn-large">Download Now</a>
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted);">Simply extract the ZIP and run NitronServerLauncher.exe</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://github.com/pcanabarro/nitron-launcher">GitHub Repository</a>
+                <a href="https://github.com/pcanabarro/nitron-launcher/issues">Report Issue</a>
+            </div>
+            <p>&copy; 2026 Nitron Server Launcher. Released under MIT License.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
